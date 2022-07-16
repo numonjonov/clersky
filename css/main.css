@@ -1,0 +1,704 @@
+@import url('http://fonts.cdnfonts.com/css/noto-sans');
+@import url('http://fonts.cdnfonts.com/css/recoleta');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background: #163A24;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__options {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.header__log__in,
+.header__tell,
+.header__get__started {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #FBFAF7;
+}
+
+.header__get__started {
+    padding: 15px 25px;
+    background: #198C36;
+    border-radius: 160px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading__text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.heading__big__p {
+    width: 391px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.063rem;
+    color: #FBFAF7;
+    margin-bottom: 18px;
+}
+
+.heading__small__p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    color: #FBFAF7;
+}
+
+.heading__img {
+    display: flex;
+    width: 58%;
+}
+
+.heading__img__img {
+    width: 100%;
+}
+
+.our__partner {
+    padding: 120px 0;
+}
+
+
+
+.our__partner__card {
+    width: 985px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our__partner__img {
+    width: 49.91%;
+}
+
+.partner__hr__imgage {
+    width: 100%;
+}
+
+.our__partner__heading {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #163A24;
+    width: 365px;
+}
+
+.our__partner__p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    color: #163A24;
+}
+
+.our__partner__text {
+    width: 39.89%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+}
+
+.partner__logo {
+    width: 985px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+    margin-top: 119px;
+}
+
+.partner__logo__heading {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #163A24;
+}
+
+.partner__img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.production {
+    background: #163A24;
+    padding: 66px 0 120px;
+}
+
+.production__heading {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #FBFAF7;
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.production__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.production__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+}
+
+.production__item__text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    color: #FBFAF7;
+    text-align: center;
+}
+
+.employees {
+    padding: 120px 0;
+    background: #F2EFE6;
+}
+
+.employees__heading {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    width: 739px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+.employees__text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    text-align: center;
+    color: #163A24;
+    width: 760px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+.scenes {
+    padding: 180px 0 120px;
+}
+
+.scenes__card {
+    width: 985px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scenes__img {
+    width: 49.91%;
+}
+
+.scenes__hr__imgage {
+    width: 100%;
+}
+
+.scenes__text {
+    width: 39.89%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+}
+
+.scenes__heading {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #163A24;
+    width: 365px;
+}
+
+.scenes__p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    color: #163A24;
+}
+
+.interest {
+    padding-bottom: 120px;
+}
+
+.interest__title {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 26px;
+}
+
+.interest__subtitle {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 18px;
+}
+
+.interest__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.interest__card {
+    width: 29.41%;
+    padding: 50px 40px 66px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 15px;
+}
+
+.interest__card__title {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    color: #163A24;
+    margin: 20px 0 23px;
+}
+
+.interest__card__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.interest__card__item {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #163A24;
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+.interest__card__cicle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #163A24;
+}
+
+.easy {
+    padding: 120px 0;
+    background: #F2EFE6;
+}
+
+.easy-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.easy__title {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.938rem;
+    line-height: 3.375rem;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 26px;
+}
+
+.easy__subtitle {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 18px;
+}
+
+.easy__list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 61px;
+}
+
+.easy__list__text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    text-align: center;
+    color: #163A24;
+}
+
+.easy__item {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 13px;
+}
+
+.easy__list__minute {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    color: #163A24;
+}
+
+.easy__right__bottom {
+    position: absolute;
+    left: 290px;
+    top: 52px;
+}
+
+.easy__right__top {
+    position: absolute;
+    left: 740px;
+    top: 52px;
+}
+
+.easy__right__circle {
+    position: absolute;
+    right: 0;
+    top: -28px;
+}
+
+.uni__link {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    text-align: center;
+    color: #FBFAF7;
+    padding: 15px 25px;
+    background: #198C36;
+    border-radius: 160px;
+}
+
+.uni__div {
+    width: max-content;
+}
+
+.resource {
+    padding: 120px 0;
+}
+
+.resource__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resource__img {
+    width: 49.91%;
+}
+
+.resource__text {
+    width: 39.89%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+}
+
+.resource__title {
+    width: 415px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #163A24;
+}
+
+.resource__subtitle {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    color: #163A24;
+}
+
+.started {
+    padding: 120px;
+    background: #163A24;
+    position: relative;
+}
+
+.started__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.started__title {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #FBFAF7;
+}
+
+.started__subtitle {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    color: #FBFAF7;
+    margin: 26px 0 33px;
+}
+
+.started__left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.started__right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.stay {
+    background: #F2EFE6;
+    padding: 60px 0;
+}
+
+.stay__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stay__title {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #163A24;
+}
+
+.stay__subtitle {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    color: #163A24;
+    margin-top: 26px;
+}
+
+.stay__forms {
+    width: 46.09%;
+}
+
+.stay__form {
+    width: 100%;
+    position: relative;
+}
+
+.stay__input {
+    width: 100%;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    border-radius: 255px;
+}
+
+.stay__button {
+    position: absolute;
+    top: -7px;
+    right: 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #FBFAF7;
+    border: none;
+    padding: 15px 25px;
+    background: #15762E;
+    border-radius: 160px;
+}
+
+.stay__forms__p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    color: #163A24;
+    margin-top: 14px;
+}
+
+footer {
+    padding-top: 40px;
+}
+
+.footer__title {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #163A24;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: #198C36;
+}
+
+.footer__list {
+    display: flex;
+    column-gap: 14px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 37px;
+    border-bottom: 1px solid #F2EFE6;
+    ;
+}
+
+.footer__copyright__p {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    color: #163A24;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.footer__copyright__list{
+    display: flex;
+    column-gap: 14px;
+}
+
+.footer__copyright__link {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+    color: #198C36;
+}
